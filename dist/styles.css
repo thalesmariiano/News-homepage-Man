@@ -524,17 +524,31 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.row-span-1{
-  grid-row: span 1 / span 1;
-}
-
 .my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .mb-3{
   margin-bottom: 0.75rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .ml-4{
@@ -549,24 +563,24 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
 
-.mb-6{
-  margin-bottom: 1.5rem;
+.mt-5{
+  margin-top: 1.25rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
+.mt-7{
+  margin-top: 1.75rem;
 }
 
-.mb-5{
-  margin-bottom: 1.25rem;
-}
-
-.mt-4{
-  margin-top: 1rem;
+.mt-8{
+  margin-top: 2rem;
 }
 
 .flex{
@@ -630,10 +644,6 @@ video {
        column-gap: 1.5rem;
 }
 
-.gap-y-6{
-  row-gap: 1.5rem;
-}
-
 .bg-soft-red{
   --tw-bg-opacity: 1;
   background-color: hsl(5 85% 63% / var(--tw-bg-opacity));
@@ -644,17 +654,13 @@ video {
   background-color: hsl(240 100% 5% / var(--tw-bg-opacity));
 }
 
-.bg-red-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
-}
-
 .p-6{
   padding: 1.5rem;
 }
 
-.p-5{
-  padding: 1.25rem;
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .px-3{
@@ -677,9 +683,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.px-1{
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .font-inter{
@@ -776,16 +787,8 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:mb-6{
-    margin-bottom: 1.5rem;
-  }
-
   .sm\:mb-0{
     margin-bottom: 0px;
-  }
-
-  .sm\:mt-0{
-    margin-top: 0px;
   }
 
   .sm\:flex{
@@ -806,20 +809,17 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:flex{
-    display: flex;
+  .md\:mt-0{
+    margin-top: 0px;
   }
 
-  .md\:hidden{
-    display: none;
+  .md\:justify-between{
+    justify-content: space-between;
   }
 
-  .md\:flex-wrap{
-    flex-wrap: wrap;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
